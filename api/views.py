@@ -1,3 +1,4 @@
+from xml.dom.pulldom import parseString
 from django.shortcuts import render
 from django.http import JsonResponse
 from cam_viewer.settings import BASE_DIR
@@ -24,5 +25,6 @@ def list_files(request):
         answer,
     )
 
+
 def schedule_recording(request):
-    
+    pass
